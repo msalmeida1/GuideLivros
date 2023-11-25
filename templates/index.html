@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Sistema de Recomendação</h1>
+    <label for="bookID">ID do Item:</label> <!-- Atualizado aqui -->
+    <input type="text" id="bookID" placeholder="Insira o ID do Item"> <!-- Atualizado aqui -->
+    <button onclick="getRecommendations()">Obter Recomendações</button>
+    <div id="recommendations"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
