@@ -9,7 +9,7 @@
 
 ### Ajustes e Melhorias
 
-O projeto ainda está em desenvolvimento, portanto ocorrerão melhorias constantemente:
+O projeto ainda está em desenvolvimento, portanto ocorrerão melhorias constantemente.
 
 ## 💻 Pré-requisitos
 
