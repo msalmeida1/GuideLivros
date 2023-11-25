@@ -9,8 +9,8 @@
 </head>
 <body>
     <h1>Sistema de Recomendação</h1>
-    <label for="bookID">ID do Item:</label> <!-- Atualizado aqui -->
-    <input type="text" id="bookID" placeholder="Insira o ID do Item"> <!-- Atualizado aqui -->
+    <label for="bookID">ID do Item:</label>
+    <input type="text" id="bookID" placeholder="Insira o ID do Item">
     <button onclick="getRecommendations()">Obter Recomendações</button>
     <div id="recommendations"></div>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
