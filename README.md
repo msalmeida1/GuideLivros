@@ -9,7 +9,7 @@
 
 ### Ajustes e Melhorias
 
-O projeto ainda está em desenvolvimento, portanto ocorrerão melhorias constantemente.
+O projeto ainda está em desenvolvimento, portanto ocorrerão melhorias constantes.
 
 ## 💻 Pré-requisitos
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ## ☕ Usando Recomendação de Livros
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar Recomendação de Livros, siga estas etapas:
 
 ```
 python3 webflask.py
