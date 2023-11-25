@@ -43,18 +43,3 @@ python3 webflask.py
 ```
 
 Acesse o sistema em http://localhost:5000
-
-## 🤝 Autor
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/msalmeida1">
-        <img src="https://avatars3.githubusercontent.com/u/12345678" width="100px;" alt="Eu!"/><br>
-        <sub>
-          <b>Matheus Almeida</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
