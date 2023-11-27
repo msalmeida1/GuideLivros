@@ -1,31 +1,114 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: #333;
+html {
+    font-family: 'Mooli', sans-serif;
 }
+
+header {
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin: 20px;
+    min-height: 100vh;
+    background-image: url('assets/luke-chesser-hQo6Uyo4nBg-unsplash.jpg');
+    background-size: cover;
+}
+
+section {
+    height: 30vh;
+    margin-top: 6vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section {
+    background-color: #000000;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+}
+.section p {
+    text-align: center;
+    
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2vh;
+    align-items: flex-start;
+}
+
+.section img {
+    max-width: 40vh;
+    height: auto;
+    
+}
+
+
+footer {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
 
 label {
     display: block;
     margin-top: 10px;
+    font-size: 20px;
 }
 
 input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
+
 button {
-    background-color: #4CAF50;
+    border-radius: 10px;
+    background: linear-gradient(to right, #6C63FF, #ab57fa);
     color: white;
-    padding: 10px;
+    padding: 10px 61px;
     margin-top: 10px;
     cursor: pointer;
+    border: none; 
 }
 
 #recommendations {
     margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    section {
+        width: 80vw;
+        margin: 10px;
+    }
+    footer {
+        position: relative;
+    }
 }

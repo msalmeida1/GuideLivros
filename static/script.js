@@ -19,7 +19,7 @@ function getRecommendations() {
 
 function updateRecommendationUI(data) {
     document.getElementById("recommendations").innerHTML = `
-        <p>Recommended Books:</p>
+        <p>Livros Recomendados:</p>
         <ul>
             ${data.recommended_books.map(book => `<li>${book.title}</li>`).join('')}
         </ul>

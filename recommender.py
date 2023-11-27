@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import linear_kernel
 import scipy
 
 # Carregar o DataFrame do arquivo de livros
-file_path = 'caminho/para/o/arquivo/books.csv'
+file_path = 'books.csv'
 df_books = pd.read_csv(file_path)
 
 # Padronizar os títulos antes da junção
