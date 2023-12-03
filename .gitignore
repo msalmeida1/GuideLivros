@@ -173,6 +173,6 @@ env/
 # Dependências
 lib/
 lib64/
-
+lib64
 bin/
 bin
