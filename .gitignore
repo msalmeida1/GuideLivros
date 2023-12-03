@@ -1,0 +1,22 @@
+# Flask
+instance/
+.webassets-cache
+
+# Diretorios
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Ambientes virtuais
+venv/
+env/
+*.env
+
+# Dependências
+lib/
+lib64/
+bin/
+pyvenv.cfg
+
