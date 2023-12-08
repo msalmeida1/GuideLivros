@@ -9,10 +9,10 @@ import scipy
 file_path = 'books.csv'
 df_books = pd.read_csv(file_path)
 
-# Padronizar os títulos antes da junção
+# Padronizar os títulos
 df_books['title'] = df_books['title'].str.strip().str.lower()
 
-# Exemplo de criação da matriz de utilidade
+# Criação da matriz de utilidade
 matrix_utility = df_books.pivot_table(index='bookID', values='average_rating')
 
 reader = Reader(rating_scale=(0, 5))
